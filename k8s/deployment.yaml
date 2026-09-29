@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: <dockerhub-user>/gitops-demo:1.0
+          image: victorminic/gitops-demo:1.0
           ports:
             - containerPort: 5000
