@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "GitOps deployment with Argo CD is working!"
+    return "version 2 deployed using Gitops and Argo CD!"
 
 @app.route("/health")
 def health():
