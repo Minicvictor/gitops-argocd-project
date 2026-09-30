@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: gitops-demo
-          image: gitops-demo:1.0
+          image: victorminic/gitops-demo:2.0
           imagepullpolicy: ifnotpresent
           ports:
             - containerPort: 5000
